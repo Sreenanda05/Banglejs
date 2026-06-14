@@ -3,14 +3,15 @@
   "name": "SleepTrack+",
   "shortName": "STrack",
   "version": "0.03",
+  "author": "Sreenanda Manikandan",
   "description": "Tracks heart-rate & motion, classifies sleep phases, streams JSON over BLE.",
   "icon": "app.png",
   "tags": "sleep,health",
   "supports": ["BANGLEJS","BANGLEJS2"],
   "storage": [
     {
-      "name": "sleeptrack.app.js",
-      "url": "app.js"
+      "name": "sleeptracker_watch.js",
+      "url": "sleeptracker_watch.js"
     },
     {
       "name": "sleeptrack.img",
